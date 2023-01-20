@@ -18,7 +18,8 @@ import WeddingParty from './pages/WeddingParty/WeddingParty'
 function App() {
   return (
 <>
-  <h1 style={{marginTop: '200px'}}>This is the App Component</h1>
+  <h1 style={{marginTop: '200px'}}>Anna & Corey</h1>
+  <p>October 1, 2023 | Medina, TN</p>
   <NavBar/>
   <Routes>
     <Route path='/' element={<Home />}/>
