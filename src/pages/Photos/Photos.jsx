@@ -1,8 +1,11 @@
-const Photos = () => {
+import photos from '../../data/photos'
+import PhotoList from "../../components/PhotoList/PhotoList";
+
+const Photos = (props) => {
   return ( 
-    <div>
-      <h1>This is the Photos Component</h1>
-    </div>
+    <>
+      <PhotoList photos={photos} />
+    </>
   );
 }
 
