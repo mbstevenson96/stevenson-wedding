@@ -17,8 +17,8 @@ import WeddingParty from './pages/WeddingParty/WeddingParty'
 
 function App() {
   return (
-<>
-  <h1 style={{marginTop: '200px'}}>Anna & Corey</h1>
+<div className='container'>
+  <h1>Anna & Corey</h1>
   <p>October 1, 2023 | Medina, TN</p>
   <NavBar/>
   <Routes>
@@ -32,7 +32,7 @@ function App() {
     <Route path='/travel' element={<Travel />}/>
     <Route path='/wedding-party' element={<WeddingParty />}/>
   </Routes>
-</>
+</div>
   );
 }
 
