@@ -1,0 +1,8 @@
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-size: 10px;
+}
