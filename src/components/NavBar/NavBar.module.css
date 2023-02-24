@@ -4,5 +4,11 @@
   justify-content: space-around;
   align-items: center;
   padding: 15px;
-  font-size: 10px;
+  font-size: 20px;
+  background-color: #a7522d;
+}
+
+.links {
+  color: #b4a36b;
+
 }
