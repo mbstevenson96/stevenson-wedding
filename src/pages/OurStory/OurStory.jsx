@@ -1,6 +1,11 @@
+import CA from '../../assets/ca.jpg'
+
 const OurStory = () => {
   return ( 
     <div>
+      <div>
+        <img src={CA} alt='Corey and Anna' />
+      </div>
       <h1>Our Story!</h1>
       <p>
         Your typical love story doesn’t usually start in the home of your ex-boyfriend…. but Corey’s and Anna’s does. In 2020 Corey and Anna met at a young adult’s group in Bartlett, TN for a church neither of them really attended.  It was game over from there.  Corey saw Anna from across the room and couldn’t help but talk to her first! Little did Corey know that all of Anna’s friends had called “dibs”, but turns out their dibs don’t mean shit!  Corey and Anna went on their first date not too long after and kept it going.  They both fell in love with each other’s lives and wanted to support each other in every way.  There were dates that were fun and careless, and ones that were more serious.  They both valued and loved each moment none the less.  As time went on, they realized they were meant for each other in every way. They shared many moments from volunteer events at church and Veteran services, to awesome “biker shit”, and learning the different dynamics of each other’s lives and loving it all.
