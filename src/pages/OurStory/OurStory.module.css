@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.imgContainer {
+  width: 10em;
+  height: 10em;
+}
+
+.contentContainer {
+  color: #2e404e;
+}
